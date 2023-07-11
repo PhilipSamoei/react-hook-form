@@ -1,7 +1,11 @@
   /* Style the form container */
-  .form-container {
-    max-width: 400px;
-    margin: 0 auto;
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+.formname{
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the form labels */
@@ -36,4 +40,8 @@ button[type="submit"] {
 /* Change the button color on hover */
 button[type="submit"]:hover {
     background-color: #45a049;
+}
+.error{
+  color: red;
+  font-size: small;
 }
